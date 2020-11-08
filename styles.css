@@ -4,3 +4,11 @@
     background-color: grey;
     padding: 0 0 10px 0;
 }
+
+.jumbotron {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

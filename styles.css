@@ -1,3 +1,8 @@
+body {
+    padding-top: 55px;
+}
+
+/* Adjust size of the map */
 #map {
     width: 100%;
     height: 700px;
@@ -5,6 +10,21 @@
     padding: 0 0 10px 0;
 }
 
+/* Navbar color */
+.navbar {
+    background-color: gray;
+}
+
+/* Prevent modal from being blocked by navbar */
+.modal-backdrop {
+   display: none;
+}
+
+.modal {
+    background: rgba(0,0,0,0.5)
+}
+
+/* Adjust size of jumbotron */
 .jumbotron {
     height: 100vh;
     display: flex;
@@ -12,3 +32,9 @@
     justify-content: center;
     align-items: center;
 }
+
+/* .hero-background-img {
+    background-image: url("/images/jumbotron-bg.jpg");
+    z-index: -1;
+    opacity: 0.5;
+} */
